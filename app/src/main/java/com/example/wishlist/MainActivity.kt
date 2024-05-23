@@ -18,7 +18,7 @@ import com.example.wishlist.ui.theme.WishlistTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        //enableEdgeToEdge()
         setContent {
             WishlistTheme {
                Surface(

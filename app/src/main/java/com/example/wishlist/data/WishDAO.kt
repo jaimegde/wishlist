@@ -23,7 +23,7 @@ abstract class WishDAO {
     @Delete
     abstract fun deleteAWish(wishEntity: Wish)
 
-    @Query("SELECT * FROM `wish-table`")
+    @Query("SELECT * FROM `wish-table` where id=:id")
     abstract fun getAWishById(id:Long): Flow<Wish>
 
 }
